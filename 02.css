@@ -1,5 +1,101 @@
+body {
+  margin: 0 auto;
+  width: 360px;
+  height: 100vh;
+}
+
+/*----- header -----*/
 header {
   display: flex;
-  font-size: 0.5em;
+  font-size: 0.8em;
   justify-content: space-between;
+  height: 20px;
+  align-items: center;
+}
+.clock {
+  font-weight: bold;
+}
+header div {
+  margin: 0 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----- main -----*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcome {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome p:first-child {
+  font-size: 1.3em;
+  font-weight: 100;
+  position: relative;
+  top: 20px;
+}
+.welcome p:nth-child(2) {
+  font-size: 0.9em;
+  color: #aaa;
+  text-align: center;
+}
+.account {
+  width: 100%;
+  height: 21vh;
+  position: relative;
+  top: 18px;
+}
+.account form input::placeholder {
+  color: #aaa;
+}
+main section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section form input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 95%;
+  height: 50px;
+  font-size: 1.1em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 13vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn form {
+  width: 100%;
+}
+.btn a,
+.btn input {
+  width: 95%;
+  height: 43px;
+  background-color: #f6f6f6;
+  border-bottom: none;
+  font-size: 14px;
+}
+.btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.findacc {
+  margin: 15px;
+  font-size: 0.8em;
 }
