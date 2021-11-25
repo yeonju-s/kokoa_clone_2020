@@ -1,0 +1,5 @@
+header {
+  display: flex;
+  font-size: 0.5em;
+  justify-content: space-between;
+}
