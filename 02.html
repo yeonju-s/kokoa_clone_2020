@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="02.css">
 </head>
 <body>
-    <header>
+    <header class="flex">
         <div>
             No Service
             <i class="fas fa-wifi"></i>
@@ -24,23 +24,23 @@
             <i class="fas fa-bolt"></i>
         </div>
     </header>
-    <main>
-        <section class="welcome">
+    <main class="flex flx-col">
+        <section class="welcome flex flx-col">
             <p>Welcome to KakaoTalk</p>
             <p>If you have a Kakao Account,<br>
                 log in with your email or phone number.</p>
         </section>
         <section class="account">
-            <form action="">
+            <form action="" class="flex flx-col">
                 <input type="email" placeholder="Email or phone number">
                 <input type="password" placeholder="Password">
             </form>
         </section>
-        <section class="btn">
+        <section class="btn flex flx-col">
             <form>
                 <input type="submit" value="Log in">                
             </form>
-            <a href="#">Sign Up</a>
+            <a class="flex" href="#">Sign Up</a>
         </section>
         <div class="findacc">
             <a href="#">Find Kakao Account or Password</a>

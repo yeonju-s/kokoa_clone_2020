@@ -3,16 +3,10 @@ body {
   width: 360px;
   height: 100vh;
 }
-header,
-main,
-.welcome,
-.btn,
-.btn a {
+.flex {
   display: flex;
 }
-main,
-.welcome,
-.btn {
+.flx-col {
   flex-direction: column;
 }
 
@@ -63,8 +57,6 @@ main {
   color: #aaa;
 }
 main section form {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 main section form input {
