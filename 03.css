@@ -2,7 +2,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .flx {
   display: flex;
@@ -42,6 +42,7 @@ nav {
 }
 .name {
   font-size: 2em;
+  font-weight: 800;
 }
 nav ul {
   padding: 0;
@@ -116,20 +117,22 @@ footer ul {
 .another {
   width: 18px;
   height: 18px;
-  background-color: red;
+  background-color: #fa622a;
   border-radius: 50%;
-  font-size: 0.5em;
+  font-size: 0.7em;
   justify-content: center;
   align-items: center;
   color: white;
   position: absolute;
   bottom: 30px;
-  left: 165px;
+  left: 40%;
 }
 .reddot {
-  font-size: 1.8em;
-  color: red;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fa622a;
   position: absolute;
-  bottom: 25px;
-  left: 350px;
+  bottom: 75%;
+  left: 85%;
 }
