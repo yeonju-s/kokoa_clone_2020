@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+.flx {
+  display: flex;
+}
+.flx-col {
+  flex-direction: column;
+}
+ul li {
+  list-style-type: none;
+}
+/*----- header -----*/
+header {
+  font-size: 0.8em;
+  justify-content: space-between;
+  height: 20px;
+  align-items: center;
+  width: 100%;
+}
+.clock {
+  font-weight: bold;
+}
+header div {
+  margin: 0 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----- main -----*/
+nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.name,
+.icons {
+  width: 30%;
+}
+.name {
+  font-size: 2em;
+}
+nav ul {
+  padding: 0;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+.alarm {
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  background-color: #fafafa;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+.grey {
+  color: #d4d4d4;
+  margin: 0 5px 0 10px;
+}
+.list,
+.channel {
+  width: 100%;
+}
+.user,
+.channel_1,
+.channel_2 {
+  margin: 0 auto;
+  width: 95%;
+}
+.user {
+  align-items: center;
+}
+.profile {
+  border-radius: 40%;
+}
+.channel_1 {
+  color: #aaa;
+  justify-content: space-between;
+}
+.channel_2 {
+  justify-content: space-between;
+  align-items: center;
+}
+.font-size {
+  font-size: 1.2em;
+}
+.left {
+  position: relative;
+  right: 28%;
+}
+.darkgrey {
+  color: #aaa;
+}
+
+/*----- footer -----*/
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 0.5px solid #ccc;
+}
+footer ul {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  font-size: 1.4em;
+  height: 60px;
+}
+.another {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 0.5em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 165px;
+}
+.reddot {
+  font-size: 1.8em;
+  color: red;
+  position: absolute;
+  bottom: 25px;
+  left: 350px;
+}
