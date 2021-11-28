@@ -13,6 +13,7 @@ body {
 ul li {
   list-style-type: none;
 }
+
 /*----- header -----*/
 header {
   font-size: 0.8em;
@@ -31,17 +32,18 @@ header div {
 
 /*----- main -----*/
 nav {
+  width: 90%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
-  margin: 0 auto;
+  height: 70px;
 }
-.name,
+.menuname,
 .icons {
   width: 30%;
 }
-.name {
-  font-size: 2em;
+.menuname {
+  font-size: 1.5em;
   font-weight: 800;
 }
 nav ul {
@@ -61,38 +63,37 @@ nav ul {
   color: #d4d4d4;
   margin: 0 5px 0 10px;
 }
-.list,
-.channel {
-  width: 100%;
-}
 .user,
-.channel_1,
-.channel_2 {
+.channel,
+.channellist {
   margin: 0 auto;
   width: 95%;
 }
 .user {
   align-items: center;
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 .profile {
-  border-radius: 40%;
+  border-radius: 41%;
 }
-.channel_1 {
+.channel {
   color: #aaa;
   justify-content: space-between;
 }
-.channel_2 {
+.channellist {
   justify-content: space-between;
   align-items: center;
 }
-.font-size {
+.user-name {
   font-size: 1.2em;
+  padding: 0 25px;
 }
-.left {
-  position: relative;
-  right: 28%;
+.channelprofile {
+  align-items: center;
 }
 .darkgrey {
+  font-size: 1.2em;
   color: #aaa;
 }
 
