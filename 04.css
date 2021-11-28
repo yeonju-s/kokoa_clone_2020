@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+.flx {
+  display: flex;
+}
+.flx-col {
+  flex-direction: column;
+}
+ul li {
+  list-style-type: none;
+}
+
+/*----- header -----*/
+header {
+  font-size: 0.8em;
+  justify-content: space-between;
+  height: 20px;
+  align-items: center;
+  width: 100%;
+}
+.clock {
+  font-weight: bold;
+}
+header div {
+  margin: 0 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----- main -----*/
+nav {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.menuname,
+.icons {
+  width: 40%;
+}
+.menuname {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+nav ul {
+  justify-content: space-between;
+  font-size: 1.2em;
+  padding: 0;
+}
+.user-name {
+  font-size: 1.2em;
+  padding: 0 25px;
+}
+.channelprofile {
+  align-items: center;
+}
+.darkgrey {
+  font-size: 1.2em;
+  color: #aaa;
+}
+.list {
+  width: 100%;
+}
+.list ul {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.chatlist {
+  margin: 0 auto;
+  width: 90%;
+  padding: 2% 0;
+  height: 50px;
+  justify-content: space-between;
+}
+.profile {
+  border-radius: 41%;
+}
+p {
+  margin: 0;
+}
+.chatname {
+  font-weight: bold;
+}
+.preview {
+  font-size: 0.8em;
+}
+.list li div:nth-child(2) {
+  justify-content: space-evenly;
+}
+.chatinfo {
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.preview,
+.chattime {
+  color: #aaa;
+}
+.chatnumber {
+  width: 18px;
+  height: 18px;
+  background-color: #fa622a;
+  border-radius: 50%;
+  font-size: 0.7em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/*----- footer -----*/
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 0.5px solid #ccc;
+}
+footer ul {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  font-size: 1.4em;
+  height: 60px;
+}
+.another {
+  width: 18px;
+  height: 18px;
+  background-color: #fa622a;
+  border-radius: 50%;
+  font-size: 0.7em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+.reddot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fa622a;
+  position: absolute;
+  bottom: 75%;
+  left: 85%;
+}
