@@ -9,40 +9,38 @@
     <link rel="stylesheet" href="02.css">
 </head>
 <body>
-    <header class="flex">
-        <div>
+    <header class="statusbar flx">
+        <div class="statusbar__column">
             No Service
             <i class="fas fa-wifi"></i>
         </div>
-        <div class="clock">
+        <div class="statusbar__column">
             18:43
         </div>
-        <div>
+        <div class="statusbar__column">
             <i class="fas fa-sync-alt"></i>
             11%
             <i class="fas fa-battery-three-quarters"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </header>
-    <main class="flex flx-col">
-        <section class="welcome flex flx-col">
-            <p>Welcome to KakaoTalk</p>
+    <main class="flx flx-col">
+        <section class="welcome flx flx-col">
+            <h2>Welcome to KakaoTalk</h2>
             <p>If you have a Kakao Account,<br>
                 log in with your email or phone number.</p>
         </section>
-        <section class="account">
-            <form action="" class="flex flx-col">
+        <section class="welcome__account">
+            <form class="welcome__account__form flx flx-col">
                 <input type="email" placeholder="Email or phone number">
                 <input type="password" placeholder="Password">
+                <input type="submit" value="Log in">
             </form>
         </section>
-        <section class="btn flex flx-col">
-            <form>
-                <input type="submit" value="Log in">                
-            </form>
-            <a class="flex" href="#">Sign Up</a>
-        </section>
-        <div class="findacc">
+        <div class="signup flx">
+            Sign Up 
+        </div>
+        <div class="findaccount">
             <a href="#">Find Kakao Account or Password</a>
         </div>
     </main>

@@ -1,9 +1,11 @@
 body {
   margin: 0 auto;
-  width: 360px;
+  width: 100vw;
   height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.flex {
+.flx {
   display: flex;
 }
 .flx-col {
@@ -11,18 +13,10 @@ body {
 }
 
 /*----- header -----*/
-header {
+.statusbar {
   font-size: 0.8em;
   justify-content: space-between;
-  height: 20px;
   align-items: center;
-}
-.clock {
-  font-weight: bold;
-}
-header div {
-  margin: 0 2px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*----- main -----*/
@@ -31,67 +25,61 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 .welcome {
-  width: 100vw;
+  width: 100%;
   height: 25vh;
   justify-content: center;
   align-items: center;
 }
-.welcome p:first-child {
-  font-size: 1.3em;
-  font-weight: 100;
-  position: relative;
-  top: 20px;
-}
-.welcome p:nth-child(2) {
-  font-size: 0.9em;
+
+.welcome p {
   color: #aaa;
   text-align: center;
+  font-size: 1.1em;
 }
-.account {
+.welcome__account {
   width: 100%;
-  height: 21vh;
-  position: relative;
-  top: 18px;
 }
-.account form input::placeholder {
+.welcome__account__form {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.welcome__account form input::placeholder {
   color: #aaa;
 }
-main section form {
-  align-items: center;
-}
-main section form input {
+.welcome__account__form input {
   border: none;
   border-bottom: 1px solid #ccc;
-  width: 95%;
+  width: 90%;
   height: 50px;
+  font-size: 1.3em;
+  padding: 0;
+}
+.welcome__account__form input[type="submit"] {
+  position: relative;
+  top: 30px;
+  border: none;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+.signup {
+  width: 90%;
+  height: 50px;
+  background-color: #f6f6f6;
+  position: relative;
+  top: 40px;
+  justify-content: center;
+  align-items: center;
   font-size: 1.1em;
+}
+.findaccount {
+  margin: 15px;
+  font-size: 0.9em;
+  position: relative;
+  top: 45px;
 }
 a {
   text-decoration: none;
   color: black;
-}
-.btn {
-  width: 100%;
-  height: 13vh;
-  align-items: center;
-  justify-content: space-between;
-}
-.btn form {
-  width: 100%;
-}
-.btn a,
-.btn input {
-  width: 95%;
-  height: 43px;
-  background-color: #f6f6f6;
-  border-bottom: none;
-  font-size: 14px;
-}
-.btn a {
-  justify-content: center;
-  align-items: center;
-}
-.findacc {
-  margin: 15px;
-  font-size: 0.8em;
 }
