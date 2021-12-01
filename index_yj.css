@@ -1,0 +1,164 @@
+body {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.flx {
+  display: flex;
+}
+.flx-col {
+  flex-direction: column;
+}
+
+.statusbar {
+  font-size: 1em;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.statusbar__column i {
+  margin: 0 3px;
+}
+
+main {
+  align-items: center;
+}
+.welcome {
+  width: 100%;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+}
+.welcome h2 {
+  font-weight: normal;
+}
+.welcome p {
+  color: #aaa;
+  text-align: center;
+  font-size: 1.1em;
+  position: relative;
+  bottom: 10px;
+}
+.welcome__account {
+  width: 100%;
+}
+.welcome__account__form {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.welcome__account form input::placeholder {
+  color: #aaa;
+}
+.welcome__account__form input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 90%;
+  height: 50px;
+  font-size: 1.3em;
+  padding: 0;
+}
+.welcome__account__form input[type="submit"] {
+  position: relative;
+  top: 30px;
+  border: none;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+.signup {
+  width: 90%;
+  height: 50px;
+  background-color: #f6f6f6;
+  position: relative;
+  top: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+}
+.findaccount {
+  margin: 15px;
+  font-size: 0.9em;
+  position: relative;
+  top: 45px;
+}
+.findaccount a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+.menu {
+  margin: 5% auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__column {
+  width: 40%;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+.menu__column ul {
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+.alarm {
+  height: 50px;
+  background-color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.alarm--grey {
+  margin: 0 5px;
+  color: #d5d5d5;
+}
+footer {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  background-color: #f9f9fa;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid #ccc;
+}
+.alarmdot__circle {
+  position: absolute;
+  top: 12px;
+  left: 38%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.alarmdot__dot {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  top: -31px;
+  left: 97%;
+  border-radius: 50%;
+  background-color: #ff6229;
+}
+.footer .fas,
+.footer .far {
+  font-size: 1.6em;
+}
