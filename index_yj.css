@@ -121,9 +121,36 @@ li {
   margin: 0 5px;
   color: #d5d5d5;
 }
+
+.profilelist {
+  width: 90%;
+  margin: 0 auto;
+  height: 50%;
+}
+.profilelist__user {
+  height: 60px;
+  margin: 5% 0;
+  align-items: center;
+}
+.profilelist__user img {
+  border-radius: 41%;
+}
+.profilelist__username {
+  margin: 0 15px;
+}
+.profilelist__column {
+  border-top: 1px solid #e6e6e6;
+  color: #808080;
+  justify-content: space-between;
+  height: 30px;
+}
+.profilelist__user__count {
+  position: absolute;
+  right: 5%;
+  color: #808080;
+}
 footer {
   width: 100%;
-  height: 100%;
 }
 .footer {
   position: absolute;
@@ -151,8 +178,8 @@ footer {
 }
 .alarmdot__dot {
   position: relative;
-  width: 5px;
-  height: 5px;
+  width: 0.3em;
+  height: 0.3em;
   top: -31px;
   left: 97%;
   border-radius: 50%;
@@ -160,5 +187,5 @@ footer {
 }
 .footer .fas,
 .footer .far {
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
