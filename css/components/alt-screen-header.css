@@ -1,0 +1,37 @@
+.alt-header {
+  padding: 30px var(--horizontal-space);
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* -- column이 같은 너비를 가지게 %로 너비 조정 -- */
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+/* -- 중앙 column에서 텍스트 중앙 정렬로 super center --*/
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  /* -- 마지막 column에서 오른쪽 정렬로 space-between과 같은 효과 --*/
+  justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}

@@ -1,7 +1,7 @@
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 35px;
   border-top: var(--main-border);
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .more-suggestions__title {
@@ -10,6 +10,7 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-around;
 }
 
 .more-suggestions__icon {
@@ -17,6 +18,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.more-suggestions__icon:last-child {
+  margin-right: 0px;
 }
 
 .more-suggestions__icon-image {
